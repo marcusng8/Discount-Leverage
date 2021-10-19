@@ -3,6 +3,8 @@
 Esta é uma documentação modelo para os projetos do Academy Hack.  
 Aqui você deverá descrever uma visão geral do seu projeto.  
 
+[Link da Apresentação do Projeto](http://caminho.para.o.ppt)
+
 ### Problema  
 Descreva aqui que problema está sendo resolvido, quais as dores, o público alvo  
 
@@ -24,3 +26,9 @@ Fale sobre a solução q está sendo proposta. Como ela tem o potencial de resol
 ## Processo de instalação e execução
 Aqui deve conter um passo a passo auto explicável que possa ser replicado pelos avaliadores para a execução do sistema.
 Sugerimos a utilização de virtual enviroment para evitar falhas.
+
+
+# Time
+
+| [<img src="https://avatars3.githubusercontent.com/u/41878170?s=115&v=4" width="115"><br><sub>@alexandremendoncaalvaro</sub>](https://github.com/alexandremendoncaalvaro) | [<img src="https://avatars.githubusercontent.com/u/21226851?v=4" width="115"><br><sub>@danielblu</sub>](https://github.com/danielblu) |
+| :---: | :---: |
