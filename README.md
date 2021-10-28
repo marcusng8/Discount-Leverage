@@ -32,7 +32,7 @@ Obtendo Mo = 3000
 O metodo de exploração simplesmente seria dividir o tempo total entre os tres restaurantes, podemos observar que não é o melhor metodo no momento que esta longe da melhor faixa com uma diferença de 700.
 
 ![](readme/exploitationMab.png)  
-O metodo de exploitation(abuso) tem um resultado melhor que o metodo de apenas exploração, porem ele tem o grave problema de so ter um ajuste inicial, podendo assim cair em um restaurante com uma media ruim e gerar uma valor muito pior que o de exploração. No exemplo percebemos o segundo restaurante, em momento inicial, como superior e por isso continuamos indo nele durante nossa estadia. Temos uma faixa com diferença de aproximadamente 600 ao inves do 700 do de exploração apenas. Um resultado certamente melhor, porem ainda esta longe do melhor.
+O metodo de exploitation(abuso) tem um resultado melhor que o metodo de apenas exploração, porem ele tem o grave problema de so ter um ajuste inicial, podendo assim cair em um restaurante com uma media ruim e gerar uma valor muito pior que o de exploração. No exemplo percebemos o segundo restaurante, em momento inicial, como superior e por isso continuamos indo nele durante nossa estadia. Temos uma faixa com diferença de aproximadamente 600 ao inves do 700 do de exploração apenas. Um resultado certamente superior, porem ainda esta longe do melhor.
 
 
 ![](readme/eGreedyMab.png)
@@ -76,9 +76,30 @@ from sklearn.metrics import silhouette_samples, silhouette_score) Bibliotecas ne
 
 ## Processo de instalação e execução
 
-explicar como fazer a parada do google collab
+Para poder testar o codigo no GoogleCollab sera necessario a base dados da ambev com a adição de duas colunas novas nomeadas de visit_count e Purchase_count, que respectivamente falam sobre o numero de visitas, e o numero de compras de um certo ID. Ambos os valores podem ser acrescentados de maneira aleatoria, recomendamos utilizar de valores de 1 a 100 para facilitar o processo. 
+
+Dentro do codigo no ambiente virtual do google collab, clique em files e preencha com o conteudo de cada uma das pasta presentes no projeto.
+
+![](readme/exemploPasta1.png)
+
+Deve-se clicar no icone da pasta.
+
+![](readme/exemploPasta2.png)
+
+No momento que for aberto, deve-se carregar os arquivos afim de ficar igual a proxima imagem.
+
+![](readme/exemploPasta3.png)
+
+A arvore do respositório fica organizado da seguinte forma 
 
 
+```
+├───data
+├───scripts
+└───sources
+    ├───funk_svd
+    ├───mab    
+```
 
 
 # Time
