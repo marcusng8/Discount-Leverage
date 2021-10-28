@@ -19,14 +19,27 @@ Utilizar de modelos de machine learning para criar perfis de compradores, atrav�
 ## Gráfico explicativo  
 ![](readme/Gráfico_explicativo.png)  
 
-![](readme/exploitationMab.png)  
-Explicar exploitation(abuso)
+![](readme/ExemploMab.png)  
+Atraves desses dados podemos inferir que o melhor valor de aproveitamento seria sempre ir no restaurante numero 1, pois este possui a maior media.
+
+Temos portanto a melhor taxa como o numero de dias (300) multiplicado pela melhor media (10)
+
+Obtendo Mo = 3000
+
 
 ![](readme/explorationMab.png)
-Explicar exploração
 
-![](readme/EGreedy.png)
-Explicar metodo misto utilizado
+O metodo de exploração simplesmente seria dividir o tempo total entre os tres restaurantes, podemos observar que não é o melhor metodo no momento que esta longe da melhor faixa com uma diferença de 700.
+
+![](readme/exploitationMab.png)  
+O metodo de exploitation(abuso) tem um resultado melhor que o metodo de apenas exploração, porem ele tem o grave problema de so ter um ajuste inicial, podendo assim cair em um restaurante com uma media ruim e gerar uma valor muito pior que o de exploração. No exemplo percebemos o segundo restaurante, em momento inicial, como superior e por isso continuamos indo nele durante nossa estadia. Temos uma faixa com diferença de aproximadamente 600 ao inves do 700 do de exploração apenas. Um resultado certamente melhor, porem ainda esta longe do melhor.
+
+
+![](readme/eGreedyMab.png)
+
+O resultado do metodo misto, utiliza de umas porcentangem do periodo total de estadia para testar os restaurante, e apos esse periodo de teste ele passa apenas a ir no restaurante de melhor perfomance. Teriamos aqui portanto, com a porcentagem sendo 10% do total de estadia, r1(10*10) + r2(10*8) + r3(10*5) => r1(100) + r2(80) + r3(60) => 240 + 270(10) = 240 + 2700 => 2960
+Gerando assim um resultado de aproveitamento de 2960, uma diferenca extrema em relação aos metodos não flexiveis, com uma faixa de diferenca de aproximadamente 40 apenas.
+
 
 ## Pré requisitos
 - Sistema Operacional  
