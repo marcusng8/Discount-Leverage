@@ -1,34 +1,74 @@
 # Título do projeto  
 ## Visão Geral  
-Esta é uma documentação modelo para os projetos do Academy Hack.  
-Aqui você deverá descrever uma visão geral do seu projeto.  
+Utilizar de modelos de machine learning para criar perfis de compradores, através dos dados cadastrados, para recomendar de forma mais eficiente descontos personalizados. Por meio de clusterização K-means combinada com MaB (multi-armed bandits), visto que este modelo é ideal quando se depara repetidamente com uma escolha entre k diferentes opções ou ações que devem ser tomadas, após cada escolha, recebe-se uma recompensa numérica que está ligada a sua escolha e que pode influenciar suas escolhas futuras. O objetivo é maximizar a recompensa total esperada ao longo do tempo ao fazer escolhas certas. De forma traduzida em um Sistema de Recomendação, onde, repetidamente teremos que escolher o conteúdo que será apresentado para o usuário (ações), cada conteúdo tem uma distribuição de probabilidade de ser clicado (recompensa) e o objetivo do sistema de recomendação é maximizar a taxa de eventos no final do dia (maximizar a recompensa). Em quesito do projeto, o MaB será usado para modelar o perfil do consumidor, este considera cada braço como recompensa, e cada recompensa como uma oferta, além de função de ganho customizada definida a fim de alcançar tanto o desconto personalizado quanto a métrica de conquistas do sistema.
 
 [Link da Apresentação do Projeto](http://caminho.para.o.ppt)
 
 ### Problema  
-Descreva aqui que problema está sendo resolvido, quais as dores, o público alvo  
+-Para quem conceder desconto?
+
+-Como saber se o desconto foi aproveitado?
+
+-Como saber qual desconto terá retorno positivo?
 
 ### Proposta de solução  
-Fale sobre a solução q está sendo proposta. Como ela tem o potencial de resolver o problema?  
+ Desenvolver sistema que aprende o padrão de compra da POC, cria um modelo do perfil de usuário e a partir dos dados, gera suposições desse padrão de compra, e define, segundo esses padrões, qual evento de desconto trará maior recompensa á Ambev e qual será mais atrativa ao cliente. 
+ De maneira geral, o sistema aprende atraves de recompensas se um certo desconto sera mais bem utilizado.
 
 # Informações Técnicas
 ## Gráfico explicativo  
-![](readme/architecture.drawio.svg)  
-> Faça uma diagrama explicativo da estrutura do projeto, pode ser um diagrama de caso de uso, fluxograma, arquitetura do sistema, ou o que vc entender como necessário pra explicar o funcionamento da sua solução.  
-*Utilizando a extensão de VSCode: [**Draw.io Integration**](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) é possível criar um arquivo svg editável apenas utilizando a extensão: ".drawio.svg"  
+![](readme/Gráfico_explicativo.png)  
+
+![](readme/exploitationMab.png)  
+Explicar exploitation(abuso)
+
+![](readme/explorationMab.png)
+Explicar exploração
+
+![](readme/EGreedy.png)
+Explicar metodo misto utilizado
 
 ## Pré requisitos
 - Sistema Operacional  
-- Linguagem Utilizada  
+- Linguagem Utilizada
+
+   Python
+
 - Ambiente virtual
-- Bibliotecas  
+
+     Google Collab (notebook)
+ 
+- Bibliotecas
+
+(Biblioteca os, sys, csv, json, io)
+    tratamento de data set de entrada.
+
+(Biblioteca pandas) 
+    leitura do dados
+
+(Biblioteca matplotlib.pyplot, seaborn) 
+    para demonstrar dados graficamente
+
+(Biblioteca numpy) 
+    tratamento de dados numéricos
+
+(Biblioteca utils) 
+    ferramentas gerais para auxilio no funcionamento das diversas técnicas embutidas
+    
+(from sklearn.model_selection import ShuffleSplit
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_samples, silhouette_score) Bibliotecas necessária para aplicar técnicas de processamento de sinal afim de tratar os dados
+
+(Biblioteca pickle) salvar resultado das técnicas para usos futuros
 
 ## Processo de instalação e execução
-Aqui deve conter um passo a passo auto explicável que possa ser replicado pelos avaliadores para a execução do sistema.
-Sugerimos a utilização de virtual enviroment para evitar falhas.
+
+explicar como fazer a parada do google collab
+
+
 
 
 # Time
 
-| [<img src="https://avatars3.githubusercontent.com/u/41878170?s=115&v=4" width="115"><br><sub>@alexandremendoncaalvaro</sub>](https://github.com/alexandremendoncaalvaro) | [<img src="https://avatars.githubusercontent.com/u/21226851?v=4" width="115"><br><sub>@danielblu</sub>](https://github.com/danielblu) |
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/64470455?v=4" width="115"><br><sub>@Juliagontijo</sub>](https://github.com/juliagontijo) | [<img src="https://avatars.githubusercontent.com/u/64470453?s=400&u=42a02085b0005b35310cdc7f03ed93bb29295f3f&v=4" width="115"><br><sub>@Marcusng8</sub>](https://github.com/marcusng8) | [<img src="https://avatars.githubusercontent.com/u/64488614?v=4" width="115"><br><sub>@RodrigoOliveira</sub>](https://github.com/rodrigogitrep) | 
+| :---: | :---: | :---: |
