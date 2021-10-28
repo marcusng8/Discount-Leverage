@@ -2,7 +2,7 @@
 ## Visão Geral  
 Utilizar de modelos de machine learning para criar perfis de compradores, através dos dados cadastrados, para recomendar de forma mais eficiente descontos personalizados. Por meio de clusterização K-means combinada com MaB (multi-armed bandits), visto que este modelo é ideal quando se depara repetidamente com uma escolha entre k diferentes opções ou ações que devem ser tomadas, após cada escolha, recebe-se uma recompensa numérica que está ligada a sua escolha e que pode influenciar suas escolhas futuras. O objetivo é maximizar a recompensa total esperada ao longo do tempo ao fazer escolhas certas. De forma traduzida em um Sistema de Recomendação, onde, repetidamente teremos que escolher o conteúdo que será apresentado para o usuário (ações), cada conteúdo tem uma distribuição de probabilidade de ser clicado (recompensa) e o objetivo do sistema de recomendação é maximizar a taxa de eventos no final do dia (maximizar a recompensa). Em quesito do projeto, o MaB será usado para modelar o perfil do consumidor, este considera cada braço como recompensa, e cada recompensa como uma oferta, além de função de ganho customizada definida a fim de alcançar tanto o desconto personalizado quanto a métrica de conquistas do sistema.
 
-[Link da Apresentação do Projeto](http://caminho.para.o.ppt)
+[Link da Apresentação do Projeto](https://github.com/marcusng8/Discount-Leverage/blob/main/readme/ApresentaçãoDoProjeto.pdf)
 
 ### Problema  
 -Para quem conceder desconto?
