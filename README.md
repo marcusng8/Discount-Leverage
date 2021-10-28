@@ -37,7 +37,7 @@ O metodo de exploitation(abuso) tem um resultado melhor que o metodo de apenas e
 
 ![](readme/eGreedyMab.png)
 
-O resultado do metodo misto, utiliza de umas porcentangem do periodo total de estadia para testar os restaurante, e apos esse periodo de teste ele passa apenas a ir no restaurante de melhor perfomance. Teriamos aqui portanto, com a porcentagem sendo 10% do total de estadia, r1(10*10) + r2(10*8) + r3(10*5) => r1(100) + r2(80) + r3(60) => 240 + 270(10) = 240 + 2700 => 2960
+O resultado do metodo misto, utiliza de umas porcentangem do periodo total de estadia para testar os restaurante, e apos esse periodo de teste ele passa apenas a ir no restaurante de melhor perfomance. Teriamos aqui portanto, com a porcentagem sendo 10% do total de estadia, r1(10 * 10) + r2(10 * 8) + r3(10 * 5) => r1(100) + r2(80) + r3(60) => 240 + 270(10) = 240 + 2700 => 2960
 Gerando assim um resultado de aproveitamento de 2960, uma diferenca extrema em relação aos metodos não flexiveis, com uma faixa de diferenca de aproximadamente 40 apenas.
 
 
