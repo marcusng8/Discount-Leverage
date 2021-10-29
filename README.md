@@ -88,7 +88,7 @@ Deve-se clicar no icone da pasta.
 
 No momento que for aberto, deve-se carregar os arquivos afim de ficar igual a proxima imagem.
 
-![](readme/exemploPasta3.png)
+![](readme/pathArquives.png)
 
 A arvore do respositório fica organizado da seguinte forma 
 
@@ -100,7 +100,7 @@ A arvore do respositório fica organizado da seguinte forma
     ├───funk_svd
     ├───mab    
 ```
-
+Ao rodar o código, este perdirá para você fazer upload (de seu computador) da base de dados "RandomVisitBuyingCount.csv" presente neste repositório, e, posteriormente, da "Data.csv", correspondente á base de dados disopnibilizada pela Ambev.
 
 # Time
 
