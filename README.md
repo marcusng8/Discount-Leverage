@@ -17,7 +17,7 @@ Utilizar de modelos de machine learning para criar perfis de compradores, atrav�
 
 # Informações Técnicas
 ## Gráfico explicativo  
-![](readme/Gráfico_explicativo.png)  
+![](readme/Gráfico_explicativo.png)  
 
 ![](readme/ExemploMab.png)  
 Atraves desses dados podemos inferir que o melhor valor de aproveitamento seria sempre ir no restaurante numero 1, pois este possui a maior media.
