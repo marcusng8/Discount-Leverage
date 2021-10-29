@@ -88,7 +88,7 @@ Deve-se clicar no icone da pasta.
 
 No momento que for aberto, deve-se carregar os arquivos afim de ficar igual a proxima imagem.
 
-![](readme/pathArquives.png)
+![](readme/PathtoArchives.png)
 
 A arvore do respositório fica organizado da seguinte forma 
 
